@@ -3,11 +3,12 @@
         <title>Sample Site</title>
         <link rel="stylesheet" href="Site.css">
     </head>
-    <div class="container1" align= "center">
+    <div class="container" style="text-align: center; padding-bottom: 10px;">
         <p>Here is a nice container for this site</p>
     </div>
+    <p align= "center">Here is a nice table</p>
     <table class="table">
-        <p align= "center">Here is a nice table</p> 
+         
         <tr>
             <th>First Name</th>
             <th>Last Name</th>
@@ -34,36 +35,25 @@
         </tr>
     </table>
     <br/><br/><br/><br/>
-    <div class="row">
-    <div class="column1">
         <div class="card">Card 1<br/><br/>This is the 1 card</div>
-      </div>
-      <div class="column1">
         <div class="card">Card 2<br/><br/>This is the 2 card</div>
-      </div>
-      <div class="column1">
         <div class="card">Card 3<br/><br/>This is the 3 card</div>
-      </div>
-      <div class="column1">
         <div class="card">Card 4<br/><br/>This is the 4 card</div>
-      </div>
-    </div>
     <br/><br/><br/><br/>
-    <div class="dropdown">
-        <button class="dropbtn">Dropdown</button>
-        <div class="dropdown-content">
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLahKLy8pQdCM0SiXNn3EfGIXX19QGzUG3">Link 1</a>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLahKLy8pQdCM0SiXNn3EfGIXX19QGzUG3">Link 2</a>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLahKLy8pQdCM0SiXNn3EfGIXX19QGzUG3">Link 3</a>
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLahKLy8pQdCM0SiXNn3EfGIXX19QGzUG3">Link 1</a>
+          <a class="dropdown-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLahKLy8pQdCM0SiXNn3EfGIXX19QGzUG3">Link 2</a>
+          <a class="dropdown-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLahKLy8pQdCM0SiXNn3EfGIXX19QGzUG3">Link 3</a>
         </div>
       </div>
       <br/><br/><br/>
-      <div id="content-Desktop">
-          Hey you're on a desktop!
-      </div>
-      <div id="content-Mobile">
+      <div class="d-sm-none">
           Hey you're on mobile!
       </div>
 
-      <img src="cow.jpg" alt="Polish Cow" class="responsive">
+      <img src="cow.jpg" alt="Polish Cow" class="embed-responsive">
 </html>
